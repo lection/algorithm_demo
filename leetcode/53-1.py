@@ -27,6 +27,7 @@ def max_sub_array_value_o2(nums):
     return max_value
 
 
+#貌似是标准教材的实现方式
 def max_sub_array_value_o1(nums):
     if not nums or len(nums) == 0:
         return 0
